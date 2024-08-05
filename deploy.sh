@@ -9,11 +9,20 @@ if [ ! -f "package.json" ]; then
   exit 1
 fi
 
+# Check for a commit message argument
+if [ -z "$1" ]; then
+  echo "Error: No commit message provided."
+  echo "Usage: ./deploy.sh \"Your commit message\""
+  exit 1
+fi
+
+COMMIT_MESSAGE=$1
+
 # Step 1: Commit changes to main branch
 echo "Committing changes to main branch..."
 git checkout main
 git add .
-git commit -m "Save current changes"
+git commit -m "$COMMIT_MESSAGE"
 git push origin main
 
 # Step 2: Build the project
