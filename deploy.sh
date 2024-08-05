@@ -32,16 +32,19 @@ npm run build
 
 # Step 3: Switch to gh-pages branch and pull latest changes
 echo "Switching to gh-pages branch..."
-git checkout gh-pages
+git checkout --orphan gh-pages
 git pull origin gh-pages --allow-unrelated-histories
 
-# Step 4: Remove old files
+# Step 4: Remove old files, including dist folder
 echo "Removing old files..."
 git rm -rf .
 
-# Step 5: Copy new build files
+# Step 5: Copy new build files from dist to root
 echo "Copying new build files..."
 cp -r dist/* .
+
+# Copy CNAME file to root
+cp ../CNAME .
 
 # Step 6: Add and commit new build files
 echo "Adding and committing new build files..."
