@@ -8,5 +8,7 @@ export default defineConfig({
     modules: {
       localsConvention: 'camelCase',
     }
-  }
+  },
+  base: '/react-portfolio/' // Replace with your repository name
+  // other configurations
 })
