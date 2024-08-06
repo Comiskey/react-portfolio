@@ -15,7 +15,7 @@ git add -A
 git commit -m 'deploy'
 
 # Force push to the gh-pages branch
-git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+git push -f git@github.com:comiskey/react-portfolio.git master:gh-pages
 
 # Navigate back to the root project directory
 cd -
