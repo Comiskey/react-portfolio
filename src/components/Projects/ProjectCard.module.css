@@ -69,6 +69,12 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 10px 20px;
+  opacity: 1;
+  transition: opacity 0.4s ease-in;
+}
+
+.link:hover {
+  opacity: 0.6; /* Adjust the value as needed */
 }
 
 @media screen and (max-width: 830px) {

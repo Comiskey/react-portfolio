@@ -9,14 +9,14 @@
   {
     "title": "Mass Production of Custom Injection-Molded Yo-yo's",
     "imageSrc": "projects/buzz.jpeg",
-    "description": "Lead a team of 5 peers over a semester's time to manufacture injection & thermoforming molds for the production of 50+ custom designed buzz lightyear yo-yo's, featuring a custom press-fit between the two halves of the yo-yo.",
+    "description": "Lead a team of 5 peers over a semester's time to manufacture injection & thermoforming molds for the production of 50+ custom designed Buzz Lightyear yo-yo's, featuring a custom press-fit between the two halves of the yo-yo.",
     "skills": ["Design For Manufacturing", "Fusion 360", "Injection Molding", "CNC Milling", "Thermoforming"],
     "info": "#"
   },
   {
     "title": "Autonomous Robot Design Competition",
     "imageSrc":  "projects/robot.jpg",
-    "description": "Placing 6th out of 138 students, this autonomous robot was the culmination of a semester of design and fabriccation work, which was informaed by multiple custom-built MATLAB simulations to determine necssary hardware specifications.",
+    "description": "Placing 6th out of 138 students, this autonomous robot was the culmination of a semester of design and fabrication work, which was informed by multiple custom-built MATLAB simulations to determine necssary hardware specifications.",
     "skills": ["SolidWorks", "MATLAB", "CNC Milling", "Lathe"],
     "info": "#"
   }

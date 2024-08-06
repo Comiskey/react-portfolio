@@ -1,24 +1,24 @@
 [
   {
     "role": "Mechanical Engineering Research Intern",
-    "organisation": "MIT Fabriaction-Integrated Design Lab",
-    "startDate": "Jan, 2024",
+    "organisation": "MIT Fabrication-Integrated Design Lab",
+    "startDate": "Jan 2024",
     "endDate": "Present",
     "experiences":[
       "Designed and fabricated molds for injection molded prototypes of silicone-based soft-robotic components",
       "Published research presenting novel ways to improve the adhesive strength of soft material interfaces",
-      "Developed and conducted experiments to validate hypotheses regarding simple-to-implement and repeatable methods of increasing the adhesive strength of silicones for the purpose of improve soft robotic manufacturing practices"
+      "Developed and conducted experiments to validate hypotheses regarding simple-to-implement and repeatable methods of increasing the adhesive strength of silicones for the purpose of improving soft robotic manufacturing practices"
     ],
     "imageSrc": "history/mit.png"
   },
   {
     "role": "Mechanical Engineering Intern",
     "organisation": "Caterpillar Inc.",
-    "startDate": "May, 2023",
-    "endDate": "Aug, 2023",
+    "startDate": "May 2023",
+    "endDate": "Aug 2023",
     "experiences":[
       "Designed extruded and folded fin heat-sinks for electric engine power inverter cooling; verified the designs’ thermodynamic capabilities, flow-rate, and pressure drop through repeated simulation in ANSYS CFD softwares", 
-      "Designed, fabricated, and assembled test-bed for safe and secure physical mounting of 100+lbs. electrical connector.",
+      "Designed, fabricated, and assembled test-bed for safe and secure physical mounting of 100+lbs electrical connector",
       "Designed and prototyped heat-sink block and EMI-shield for new battery cell charge regulation circuit board"
     ],
     "imageSrc": "history/cat.png"
@@ -26,8 +26,8 @@
   {
     "role": "Mechanical Engineering Research Intern",
     "organisation": "MIT Portela Research Group",
-    "startDate": "Jan, 2023",
-    "endDate": "May, 2023",
+    "startDate": "Jan 2023",
+    "endDate": "May 2023",
     "experiences": [
       "Performed finite element analysis of novel micro-architectures manufactured using spinodal decomposition in ABAQUS for discovery of materials’ unique mechanical stress and strain properties",
       "Developed MATLAB and Python interpolation algorithns to convert raw data in Excel files to raw .stl files of geometries, orientations, and boundary conditions of research interest",
@@ -38,8 +38,8 @@
   {
     "role": "Industrial Controls Engineering Intern",
     "organisation": "Symbotic",
-    "startDate": "May, 2022",
-    "endDate": "Aug, 2022",
+    "startDate": "May 2022",
+    "endDate": "Aug 2022",
     "experiences": [
       "Developed controls programs in Allen Bradley PLC software for company’s robotic warehouse automation system",  
       "Tested and debugged code written by system software team on robotic prototypes in company’s integrated testing center",
@@ -50,11 +50,11 @@
   {
     "role": "Software Engineering Intern (Externship)",
     "organisation": "Lockheed Martin Sikorsky",
-    "startDate": "Jan, 2023",
-    "endDate": "May, 2023",
+    "startDate": "Jan 2023",
+    "endDate": "May 2023",
     "experiences": [
-      "Lead team of four MIT undergraduates in developing an optimized search and rescue algorithm for autonomous drones",
-      "Developed algorithm in python and repeatedly tested using custom flight simulation software in Linux Ubuntu"
+      "Led team of four MIT undergraduates in developing an optimized search and rescue algorithm for autonomous drones",
+      "Developed algorithm in Python and repeatedly tested using custom flight simulation software in Linux Ubuntu"
     ],
     "imageSrc": "history/sikorsky.png"
   }
