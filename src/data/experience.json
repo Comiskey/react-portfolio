@@ -5,7 +5,7 @@
     "startDate": "Jan 2024",
     "endDate": "Present",
     "experiences":[
-      "Engineered an open-source pneumatic actuator test stand, and associated pneumatic PID controller, to characterize the total life-cycle, pressure limit, and internal pressure-to-actuation relationship of other researchers' new soft robot designs",
+      "Engineered an open-source pneumatic actuator test stand, and associated pneumatic PID controller, to characterize the total life cycle, pressure limit, and internal pressure-to-actuation relationship of other researchers' new soft robot designs",
       "Designed and fabricated molds for injection molding prototypes of silicone-based soft-robotic components",
       "Developed and conducted custom experiments that validated hypotheses regarding simple-to-scale and repeatable methods of increasing the adhesive strength of silicones for the purpose of improve soft robotic manufacturing processes"
     ],
@@ -30,7 +30,7 @@
     "endDate": "May 2023",
     "experiences": [
       "Performed finite element analysis of novel micro-architectures manufactured using spinodal decomposition in ABAQUS for discovery of materials' unique mechanical stress and strain properties",
-      "Developed MATLAB and Python interpolation algorithns to convert raw data in Excel files to .stl files of geometries, orientations, and boundary conditions of research interest",
+      "Developed MATLAB and Python interpolation algorithms to convert raw data in Excel files to .stl files of geometries, orientations, and boundary conditions of research interest",
       "3D printed micro-architectures to physically validate ABAQUS findings through repeated nanoindentation experiments"
     ],
     "imageSrc": "history/mit.png"

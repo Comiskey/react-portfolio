@@ -9,14 +9,14 @@
   {
     "title": "Thermal Acceleration of Soft-soft Interface Manufacturing",
     "imageSrc": "projects/peel.png",
-    "description": "Investigated the effects of thermal acceleration on the peel strength of soft-soft interfaces. Successfully demonstrated that thermal acceleration can be used to reduce the manufacturing time of common soft robotic components by up to a factor of 55x withhout adverse affects on material properties.",
+    "description": "Investigated the effects of thermal acceleration on the peel strength of soft-soft interfaces. Successfully demonstrated that thermal acceleration can be used to reduce the manufacturing time of common soft robotic components by up to a factor of 55x withhout adverse effects on material properties.",
     "skills": ["Experimental Design", "Materials Science", "Statistical Analysis", "Mold Design"],
     "info": "/pdfs/peel.pdf"
   },
   {
     "title": "Mass Production of Custom Injection-Molded Yo-yo's",
     "imageSrc": "projects/buzz.jpeg",
-    "description": "Led a team of 5 peers over a semester's time to manufacture injection & thermoforming molds for the production of 50+ custom designed Buzz Lightyear yo-yo's, featuring a custom press-fit between the two halves of the yo-yo.",
+    "description": "Led a team of 5 peers over a semester's time to manufacture injection & thermoforming molds for the production of 50+ custom designed Buzz Lightyear yo-yos, featuring a custom press-fit between the two halves of the yo-yo.",
     "skills": ["Design For Manufacturing", "Fusion 360", "Injection Molding", "CNC Milling", "Thermoforming"],
     "info": "/pdfs/yoyos.pdf"
   },
