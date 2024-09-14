@@ -5,9 +5,9 @@
     "startDate": "Jan 2024",
     "endDate": "Present",
     "experiences":[
-      "Designed and fabricated molds for injection molded prototypes of silicone-based soft-robotic components",
-      "Published research presenting novel ways to improve the adhesive strength of soft material interfaces",
-      "Developed and conducted experiments to validate hypotheses regarding simple-to-implement and repeatable methods of increasing the adhesive strength of silicones for the purpose of improving soft robotic manufacturing practices"
+      "Engineered an open-source pneumatic actuator test stand, and associated pneumatic PID controller, to characterize the total life-cycle, pressure limit, and internal pressure-to-actuation relationship of other researchers' new soft robot designs",
+      "Designed and fabricated molds for injection molding prototypes of silicone-based soft-robotic components",
+      "Developed and conducted custom experiments that validated hypotheses regarding simple-to-scale and repeatable methods of increasing the adhesive strength of silicones for the purpose of improve soft robotic manufacturing processes"
     ],
     "imageSrc": "history/mit.png"
   },
@@ -17,9 +17,9 @@
     "startDate": "May 2023",
     "endDate": "Aug 2023",
     "experiences":[
-      "Designed extruded and folded fin heat-sinks for electric engine power inverter cooling; verified the designs’ thermodynamic capabilities, flow-rate, and pressure drop through repeated simulation in ANSYS CFD softwares", 
-      "Designed, fabricated, and assembled test-bed for safe and secure physical mounting of 100+lbs electrical connector",
-      "Designed and prototyped heat-sink block and EMI-shield for new battery cell charge regulation circuit board"
+      "Designed extruded and folded fin heat-sinks for electric engine power inverter cooling; verified the designs' thermodynamic capabilities, flow-rate, and pressure drop through repeated simulation in ANSYS CFD softwares", 
+      "Conceptualized, built, and integrated a test-bed for safe and secure physical mounting of 100+lbs. electrical connector",
+      "Prototyped and implemented a heat-sink block and EMF-shield for new battery cell charge regulation circuit board"
     ],
     "imageSrc": "history/cat.png"
   },
@@ -29,8 +29,8 @@
     "startDate": "Jan 2023",
     "endDate": "May 2023",
     "experiences": [
-      "Performed finite element analysis of novel micro-architectures manufactured using spinodal decomposition in ABAQUS for discovery of materials’ unique mechanical stress and strain properties",
-      "Developed MATLAB and Python interpolation algorithns to convert raw data in Excel files to raw .stl files of geometries, orientations, and boundary conditions of research interest",
+      "Performed finite element analysis of novel micro-architectures manufactured using spinodal decomposition in ABAQUS for discovery of materials' unique mechanical stress and strain properties",
+      "Developed MATLAB and Python interpolation algorithns to convert raw data in Excel files to .stl files of geometries, orientations, and boundary conditions of research interest",
       "3D printed micro-architectures to physically validate ABAQUS findings through repeated nanoindentation experiments"
     ],
     "imageSrc": "history/mit.png"
@@ -42,7 +42,7 @@
     "endDate": "Aug 2022",
     "experiences": [
       "Developed controls programs in Allen Bradley PLC software for company’s robotic warehouse automation system",  
-      "Tested and debugged code written by system software team on robotic prototypes in company’s integrated testing center",
+      "Tested and debugged code written by system software team on robotic prototypes in company's integrated testing center",
       "Manufactured prototype machinery and ensured all such hardware properly interfaced with PLC software"
     ],
     "imageSrc": "history/symbotic.png"
@@ -54,7 +54,7 @@
     "endDate": "May 2023",
     "experiences": [
       "Led team of four MIT undergraduates in developing an optimized search and rescue algorithm for autonomous drones",
-      "Developed algorithm in Python and repeatedly tested using custom flight simulation software in Linux Ubuntu"
+      "Developed algorithm in python and repeatedly tested using custom flight simulation software in Linux Ubuntu"
     ],
     "imageSrc": "history/sikorsky.png"
   }

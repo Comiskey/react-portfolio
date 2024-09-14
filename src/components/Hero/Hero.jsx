@@ -8,7 +8,7 @@ export const Hero = () => {
             <h1 className={styles.title}>Hi, I'm Evan</h1>
             <p className={styles.description}>
             I am a senior in Mechanical Engineering at MIT, focusing in controls and robotics, with an additional concentration in Philosophy.
-            I enjoy tackling novel challenges the areas of robotics, mechanical design, and controls at the overall system level.
+            I enjoy tackling novel challenges the areas of robotics, precision mechanical design, and additive manufacturing.
             I thrive in team settings, and hope to apply my skill-set to solve important, real-world problems. 
             
 
