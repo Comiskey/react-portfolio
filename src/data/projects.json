@@ -4,7 +4,7 @@
     "imageSrc": "projects/controller.jpg",
     "description": "Designed and built a modular soft actuator test stand for the MIT Fabrication-Integrated Design Lab. The stand is used for characterizing the motion, lifetime, and pressure limits of soft actuators in a highly controlled and repeatable manner. This project included development of a pneumatic PID control software system, capable of real-time pressure control up to 40 PSI with a 1 PSI deadband following customizable user-defined pressure profiles.",
     "skills": ["Mechanical Design", "Pneumatics", "PID Control", "Arduino", "C++"],
-    "info": "https://github.com/Comiskey/soft-actuator-controller"
+    "info": "/pdfs/controller.pdf"
   },
   {
     "title": "Thermal Acceleration of Soft-soft Interface Manufacturing",
