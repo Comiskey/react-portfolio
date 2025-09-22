@@ -7,10 +7,9 @@ export const Hero = () => {
         <div className={styles.content}>
             <h1 className={styles.title}>Hi, I'm Evan</h1>
             <p className={styles.description}>
-            I am a senior in Mechanical Engineering at MIT, focusing in controls and robotics, with an additional concentration in Philosophy.
-            I enjoy tackling novel challenges the areas of robotics, precision mechanical design, and additive manufacturing.
-            I thrive in team settings, and hope to apply my skill-set to solve important, real-world problems. 
-            
+            I am a Master's Student in Mechanical Engineering at MIT, focusing in precision machine design.
+            I am currently working on my thesis: developing novel manufacturing techniques for exotic materials.
+            I thrive in team settings, and hope to apply my skills in tackling real-world precision engineering challenges.
 
             </p>
             <a href = "mailto:comiskey@mit.edu" className={styles.contactBtn}>Contact me</a>

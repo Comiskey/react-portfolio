@@ -1,5 +1,12 @@
 [
   {
+    "title": "Precision Desktop CNC Lathe",
+    "imageSrc": "projects/lathe.jpeg",
+    "description": "Led a team of 5 engineers to develop a CNC desktop lathe capable of turning steel parts to within 50 microns of repeatability. This was accomplished using first engineering principles, parametric modeling, CAD, CAM, and FEA analysis. Custom components for the lathe were manufactured by hand using CNC mills and lathes alongside self-developed process plans.",
+    "skills": ["Machine Design", "Project Management", "Simulation & Modeling", "Flexure Design", "G-Code Programming"],
+    "info": "/pdfs/lathe.pdf"
+  },
+  {
     "title": "Pneumatic Soft Actuator Test Stand",
     "imageSrc": "projects/controller.jpg",
     "description": "Designed and built a modular soft actuator test stand for the MIT Fabrication-Integrated Design Lab. The stand is used for characterizing the motion, lifetime, and pressure limits of soft actuators in a highly controlled and repeatable manner. This project included development of a pneumatic PID control software system, capable of real-time pressure control up to 40 PSI with a 1 PSI deadband following customizable user-defined pressure profiles.",

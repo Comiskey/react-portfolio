@@ -1,9 +1,21 @@
 [
   {
+    "role": "Mechanical Engineering Research Assistant",
+    "organisation": "MIT Culpepper Lab",
+    "startDate": "Jan 2025",
+    "endDate": "Present",
+    "experiences":[
+      "Designing experiments to characterize performance of novel designs for precision timepiece components",
+      "Integrating manufacturing process for novel timepiece components into existing industry manufacturing processes to minimize costs",
+      "Developing qualitative relationship between timepiece-industry-standard cleaning processes and fatigue-life reduction"
+    ],
+    "imageSrc": "history/mit.png"
+  },
+  {
     "role": "Mechanical Engineering Research Intern",
     "organisation": "MIT Fabrication-Integrated Design Lab",
     "startDate": "Jan 2024",
-    "endDate": "Present",
+    "endDate": "Dec 2024",
     "experiences":[
       "Engineered an open-source pneumatic actuator test stand, and associated pneumatic PID controller, to characterize the total life cycle, pressure limit, and internal pressure-to-actuation relationship of other researchers' new soft robot designs",
       "Designed and fabricated molds for injection molding prototypes of silicone-based soft-robotic components",
