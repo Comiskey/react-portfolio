@@ -4,8 +4,9 @@ import educationData from "../../data/education.json";
 
 export const Education = () => {
     return (
-        <section className={styles.container} id="education">
+        <section id="education">
             <h2 className={styles.title}>Education</h2>
+            <div className={styles.container}>
             <ul className={styles.educationItems}>
                 {educationData.map((item, index) => (
                     <li key={index} className={styles.educationItem}>
@@ -25,6 +26,7 @@ export const Education = () => {
                     </li>
                 ))}
             </ul>
+            </div>
         </section>
     );
 };

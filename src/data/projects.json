@@ -1,37 +1,107 @@
 [
   {
-    "title": "Precision Desktop CNC Lathe",
-    "imageSrc": "projects/lathe.jpeg",
-    "description": "Led a team of 5 engineers to develop a CNC desktop lathe capable of turning steel parts to within 50 microns of repeatability. This was accomplished using first engineering principles, parametric modeling, CAD, CAM, and FEA analysis. Custom components for the lathe were manufactured by hand using CNC mills and lathes alongside self-developed process plans.",
-    "skills": ["Machine Design", "Project Management", "Simulation & Modeling", "Flexure Design", "G-Code Programming"],
-    "info": "/pdfs/lathe.pdf"
+    "id": "lathe",
+    "title": "Desktop CNC Lathe",
+    "imageSrc": "projects/lathe/lathe.jpeg",
+    "description": "Led a team of 5 engineers to develop a CNC desktop lathe capable of turning steel parts to within 50 microns of repeatability. This was accomplished using first engineering principles, parametric modeling, CAD, CAM, and FEA analysis.",
+    "skills": ["Machine Design", "Project Management", "Simulation & Modeling", "Flexure Design", "G-Code Programming", "GD&T"],
+    "category": "class project",
+    "sections": [
+      {
+        "title": "Functional Requirements",
+        "content": "To efficiently and effecitiveley utilize time, we homogonized a self-made error budget and customer needs to generate a list of functional requirements which guided the engineering design decisions we needed to make as a group",
+        "images": [
+          {"src": "projects/lathe/errorbudget.png", "caption": "Some functional requirements used to guide our design process"}
+        ]
+      },
+      {
+        "title": "Design Methods",
+        "content": "Paramteric modeling and verification of said modeling through FEA analysis were used to develop a lathe design which met all functional requirements. This was accomplished thought the use of spreadsheets, MATLAB, and SolidWords FEA. A structural stiffness model was developed using PTC MathCAD to validate that overall system stiffness would meet functional requirements, even when needing to make design alteration decisions when certain geometries needed to be changed",
+        "images": [
+          {"src": "projects/lathe/SpindleFBD.png", "caption": "FBD of all forces on our spindle relevant for eveluating bearing stiffness and fatigue life"},
+          {"src": "projects/lathe/ShearMoment.png", "caption": "Resulting Shear and moment diagrams for the FBD above, used to determine the maximum forces on the spindle bearings"},
+          {"src": "projects/lathe/ThermalModel.png", "caption": "Snapshots of Biot Number outputs from parametric spreadsheet modeling of the thermal resistance network on the left-hand side developed for the spindle to verify lack of thermal runaway. Heat input equation taken from bearing manufacturer's handbook."}
+        ]
+      },
+      {
+        "title": "Measurement Methods",
+        "content": "All functional requirements needed to be measured and qualified to pass the class. Group researched and employed typical measurement methods for requirements such as Donaldson-reversal method for runout, force-gauge dial-indicator displacement for directional stiffness, etc.",
+        "images": [
+          {"src": "projects/lathe/forcedisp.jpeg", "caption": "Stiffness measurement setup using dial inicator displacement and force-gauge force for the x-direction of the lathe cross-slide."}
+        ]
+      },
+      {
+        "title": "Manufacturing",
+        "content": "Majority of compoents for lathe were manually and CNC machined by team members on Lathes, mills, and waterjets, necessitating good adherence to design for manufacturing principles, and development of GD&T skills",
+        "images": [
+          {"src": "projects/lathe/Flexures.png", "caption": "Flexures machined with waterjet and finished on mill, to provide necessary stiffnesses in specific directions to not overconstrain the system."},
+          {"src": "projects/lathe/SpindleDrawing.png", "caption": "GD&T drawing of the spindle shaft."}
+        ]
+      }
+    ],
+    "info": "/projects/lathe"
   },
   {
+    "id": "controller",
     "title": "Pneumatic Soft Actuator Test Stand",
-    "imageSrc": "projects/controller.jpg",
-    "description": "Designed and built a modular soft actuator test stand for the MIT Fabrication-Integrated Design Lab. The stand is used for characterizing the motion, lifetime, and pressure limits of soft actuators in a highly controlled and repeatable manner. This project included development of a pneumatic PID control software system, capable of real-time pressure control up to 40 PSI with a 1 PSI deadband following customizable user-defined pressure profiles.",
+    "imageSrc": "projects/controller/controller.jpg",
+    "description": "Designed and built a modular soft actuator test stand for the MIT Fabrication-Integrated Design Lab. The stand is used for characterizing the motion, lifetime, and pressure limits of soft actuators in a highly controlled and repeatable manner.",
+    "thesisLink": "https://dspace.mit.edu/handle/1721.1/162418?show=full",
     "skills": ["Mechanical Design", "Pneumatics", "PID Control", "Arduino", "C++"],
-    "info": "/pdfs/controller.pdf"
+    "category": "research",
+    "sections": [
+      {
+        "title": "Motivation",
+        "content": "Repeatable testing apparatuses for soft robotics have been, as of Dec. 2024, mostly closed designs which are not easily modified. However, given the relative youth of the soft robotics field, their existed a need for a modular, pneumatic PID controlled characterization system for soft robotic actuators. The existence of such a device would allow soft roboticists to easily validate the findings of others, and modify their testing procedures as standards in the community continue to evolve.",
+        "images": [
+        ]
+      },
+      {
+        "title": "Design",
+        "content": "The test stand is fundamentally a closed-loop pneumatic system, with a PWM PID controller implemented on an Arduino. The system is modular, allowing for different types of actuators to be tested in various orientations, and different types of sensors to be used for feedback. The design process was informed by the functional requirements of the system, which were derived from the needs of the soft robotics community. Schematics for the pnuematic, electrical, and control circuits are shown below",
+        "images": [
+          {"src": "projects/controller/orientations.png", "caption": "Test stand mounting hardware: a) empty; b) a horizontally oriented actuator test set-up; c) a vertically oriented actuator test set-up. The multiple possible test orientations permit greater modularity in experiment designs. Exact locations actuators and sample object locations (such as the half circle pictured) relative to one another can be alteredthrough adjustment of the schematics used to generate the 3D-printed mounting plates."},
+          {"src": "projects/controller/pneumaticcircuit.png", "caption": "Pneumatic circuit diagram for control of airflow into and out of actuator volume, governed by the Clippard EFB-1DV-24-L dual two-way solenoid valve."},
+          {"src": "projects/controller/electroniccircuit.png", "caption": "Electronic circuit used to control the pneumatic circuit, measure pressure data during tests, record said pressure data, and display relevant information about the experiment on the included LCD screen."},
+          {"src": "projects/controller/pidcontrol.png", "caption": "Software architecture diagram for PID control program."}
+        ]
+      },
+      {
+        "title": "Results",
+        "content": "The capabilities of the test stand were validated by testing a variety of soft actuators, including the accuracy of the PID control for a given actuator. The purpose of the tester, repeatable cyclic testing of an actuator over time, was also characterized.",
+        "images": [
+          {"src": "projects/controller/pidresults.png", "caption": "Display of the measured pressure response on a per-cycle basis for an example actuator, which allows for examination of variation and change in control responses over time. Such an examination grants understanding of how reliable a system response is with particular actuators and controller settings, as well as actuator material degradation behavior."},
+          {"src": "projects/controller/cycleresults.png", "caption": "Life-cycle characterization test data gathered by repeating a 15 psi step function trajectory cycle until actuator physically ruptured. Graph depicts average, non-zero pressure value during each cycle over the actuator lifetime. The controller’s ability to collect data for long form tests such as this allow examination of actuator volume behavior over time."}
+        ]
+      }
+    ],
+    "info": "/projects/controller"
   },
   {
+    "id": "peel",
     "title": "Thermal Acceleration of Soft-soft Interface Manufacturing",
     "imageSrc": "projects/peel.png",
-    "description": "Investigated the effects of thermal acceleration on the peel strength of soft-soft interfaces. Successfully demonstrated that thermal acceleration can be used to reduce the manufacturing time of common soft robotic components by up to a factor of 55x withhout adverse effects on material properties.",
+    "description": "Successfully demonstrated that thermal acceleration can be used to reduce the manufacturing time of common soft robotic components by up to a factor of 55x withhout adverse effects on material properties.",
     "skills": ["Experimental Design", "Materials Science", "Statistical Analysis", "Mold Design"],
+    "category": "research",
     "info": "/pdfs/peel.pdf"
   },
   {
+    "id": "yoyos",
     "title": "Mass Production of Custom Injection-Molded Yo-yos",
     "imageSrc": "projects/buzz.jpeg",
     "description": "Led a team of 5 peers over a semester's time to manufacture injection & thermoforming molds for the production of 50+ custom designed Buzz Lightyear yo-yos, featuring a custom press-fit between the two halves of the yo-yo.",
     "skills": ["Design For Manufacturing", "Fusion 360", "Injection Molding", "CNC Milling", "Thermoforming"],
+    "category": "research",
     "info": "/pdfs/yoyos.pdf"
   },
   {
+    "id": "robot",
     "title": "Autonomous Robot Design Competition",
     "imageSrc": "projects/robot.jpg",
     "description": "Placing 6th out of 138 students, this autonomous robot was the culmination of a semester of design and fabrication work, which was informed by multiple custom-built MATLAB simulations to determine necessary hardware specifications.",
     "skills": ["SolidWorks", "MATLAB", "CNC Milling", "Lathe"],
+    "category": "research",
     "info": "/pdfs/robot.pdf"
   }
 ]

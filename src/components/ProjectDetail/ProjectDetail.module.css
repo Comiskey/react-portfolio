@@ -1,0 +1,108 @@
+@import "../../vars.css";
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  color: var(--color-text);
+}
+
+.category {
+  display: inline-block;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+.image {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.thesisLinkContainer {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.thesisLink {
+  color: var(--color-secondary);
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.thesisLink:hover {
+  color: var(--color-accent2);
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.sectionTitle {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.sectionContent {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.figure {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sectionImage {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  font-style: italic;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.skill {
+  background-color: var(--color-dark);
+  color: var(--color-text);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}

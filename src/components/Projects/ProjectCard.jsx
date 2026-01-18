@@ -1,15 +1,11 @@
 // ProjectCard.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { getImageUrl } from '../../utils';
 import styles from './ProjectCard.module.css';
 
 export const ProjectCard = ({ project: { title, imageSrc, description, skills, info } }) => {
-  console.log('Info URL:', info); // This line remains
-
-  // Construct the absolute URL
-  const absoluteUrl = info.startsWith('http')
-    ? info
-    : `${window.location.origin}${info}`;
+  const isPdf = info.endsWith('.pdf');
 
   return (
     <div className={styles.container}>
@@ -27,14 +23,23 @@ export const ProjectCard = ({ project: { title, imageSrc, description, skills, i
           ))}
         </ul>
         <div className={styles.links}>
-          <a
-            href={absoluteUrl} // Use absolute URL here
-            className={styles.link}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn More
-          </a>
+          {isPdf ? (
+            <a
+              href={info}
+              className={styles.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Learn More
+            </a>
+          ) : (
+            <Link
+              to={info}
+              className={styles.link}
+            >
+              Learn More
+            </Link>
+          )}
         </div>
       </div>
     </div>

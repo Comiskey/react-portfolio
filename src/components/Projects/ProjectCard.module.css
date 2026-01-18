@@ -5,8 +5,9 @@
   flex-direction: row;
   align-items: center;
   border-radius: 10px;
-  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
-  box-shadow: 0 16px 14px 0 #04152d;
+  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  border-left: 4px solid var(--color-accent);
+  box-shadow: 0 16px 14px 0 var(--color-background);
   padding: 30px 40px;
   width: 100%;
   max-width: 1200px;

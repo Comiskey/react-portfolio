@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 
-import "@fontsource/outfit"
-import "@fontsource/roboto"
-import "@fontsource/lato"
+import "@fontsource/inter"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
