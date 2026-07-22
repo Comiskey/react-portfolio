@@ -8,10 +8,24 @@
     "category": "class project",
     "sections": [
       {
+        "title": "Error Budgeting",
+        "content": "Developed an error budget using a combination of first principles, research, and technical experience to estimate which subsystems could be allowed what fraction of the 50 micron repeatibility error budget.",
+        "images": [
+          {"src": "projects/lathe/errorbudget.png", "caption": "error budget"}
+        ]
+      },
+      {
         "title": "Functional Requirements",
         "content": "To efficiently and effecitiveley utilize time, we homogonized a self-made error budget and customer needs to generate a list of functional requirements which guided the engineering design decisions we needed to make as a group",
         "images": [
-          {"src": "projects/lathe/errorbudget.png", "caption": "Some functional requirements used to guide our design process"}
+          {"src": "projects/lathe/FRs.png", "caption": "Some functional requirements used to guide our design process for the spindle assembly"}
+        ]
+      },
+      {
+        "title": "Proper Constraint Design",
+        "content": "Used principles of proper constraint design to ensure that the spindle assembly was properly overconstrained, so as the be rigied enough to meet functinoal requirements without resulting in thermal runaway",
+        "images": [
+          {"src": "projects/lathe/spindleLayout.jpg", "caption": "Back-to-Back (\"O\" arrangement) of double-tapered roller bearings constraining steel spindle shaft in aluminium housing"}
         ]
       },
       {

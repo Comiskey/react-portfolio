@@ -5,9 +5,9 @@
     "startDate": "Jan 2025",
     "endDate": "Present",
     "experiences":[
-      "Designing experiments to characterize performance of novel designs for precision timepiece components",
-      "Integrating manufacturing process for novel timepiece components into existing industry manufacturing processes to minimize costs",
-      "Developing qualitative relationship between timepiece-industry-standard cleaning processes and fatigue-life reduction"
+      "Redesigned precision timepiece components to be 3x stronger and less prone to manufacturing errors while minimizing necessary manufacturing line retooling and keeping long-term manufacturing costs at the same OOM.",
+      "Expanding theory of elastic-averaging to include effects of plastic deformation to overcome established $1/n^{0.5}$ limit",
+      "Designing and fabricating experiments to validate sub-micron accuracy of my novel elastic-plastic averaging method"
     ],
     "imageSrc": "history/mit.png"
   },
@@ -18,8 +18,8 @@
     "endDate": "Dec 2024",
     "experiences":[
       "Engineered an open-source pneumatic actuator test stand, and associated pneumatic PID controller, to characterize the total life cycle, pressure limit, and internal pressure-to-actuation relationship of other researchers' new soft robot designs",
-      "Designed and fabricated molds for injection molding prototypes of silicone-based soft-robotic components",
-      "Developed and conducted custom experiments that validated hypotheses regarding simple-to-scale and repeatable methods of increasing the adhesive strength of silicones for the purpose of improve soft robotic manufacturing processes"
+      "Validated soft-robotic adhesive-based manufacturing processes could be accelerated by factor of 50x using elevated curing temperatures and reduced curing times following simple Arrhenius equation relationships.",
+      "Designed and fabricated molds for injection molding prototypes of silicone-based soft-robotic components"
     ],
     "imageSrc": "history/mit.png"
   },
@@ -42,8 +42,8 @@
     "endDate": "May 2023",
     "experiences": [
       "Performed finite element analysis of novel micro-architectures manufactured using spinodal decomposition in ABAQUS for discovery of materials' unique mechanical stress and strain properties",
-      "Developed MATLAB and Python interpolation algorithms to convert raw data in Excel files to .stl files of geometries, orientations, and boundary conditions of research interest",
-      "3D printed micro-architectures to physically validate ABAQUS findings through repeated nanoindentation experiments"
+      "Developed MATLAB and Python interpolation algorithms to convert raw data in Excel files to .stl files of geometries, orientations, and boundary conditions of research interest to be 3D printed with a Nanoscribe PPGT2",
+      "3D printed micro-architectures to physically validate ABAQUS findings through nanoindentation experiments"
     ],
     "imageSrc": "history/mit.png"
   },

@@ -1,7 +1,47 @@
 import React from 'react';
+import katex from 'katex';
+import 'katex/dist/katex.min.css';
 import styles from './Experience.module.css';
 import history from "../../data/experience.json";
 import { getImageUrl } from '../../utils';
+
+const renderMathText = (text) => {
+    const tokens = text.split(/(\$\$.*?\$\$|\$.*?\$)/g).filter(Boolean);
+
+    return tokens.map((token, index) => {
+        if (token.startsWith('$$') && token.endsWith('$$')) {
+            const expression = token.slice(2, -2);
+            return (
+                <span
+                    key={index}
+                    dangerouslySetInnerHTML={{
+                        __html: katex.renderToString(expression, {
+                            throwOnError: false,
+                            displayMode: true,
+                        }),
+                    }}
+                />
+            );
+        }
+
+        if (token.startsWith('$') && token.endsWith('$')) {
+            const expression = token.slice(1, -1);
+            return (
+                <span
+                    key={index}
+                    dangerouslySetInnerHTML={{
+                        __html: katex.renderToString(expression, {
+                            throwOnError: false,
+                            displayMode: false,
+                        }),
+                    }}
+                />
+            );
+        }
+
+        return <React.Fragment key={index}>{token}</React.Fragment>;
+    });
+};
 
 export const Experience = () => {
     return (
@@ -27,7 +67,7 @@ export const Experience = () => {
                                 </p>
                                 <ul>
                                     {historyItem.experiences.map((experience, experienceId) => (
-                                        <li key={experienceId}>{experience}</li>
+                                        <li key={experienceId}>{renderMathText(experience)}</li>
                                     ))}
                                 </ul>
                             </div>

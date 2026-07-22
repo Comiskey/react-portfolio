@@ -1,7 +1,7 @@
 @import "../../vars.css";
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 20px;
   color: var(--color-text);
@@ -27,7 +27,7 @@
 
 .image {
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   height: auto;
   margin: 0 auto 20px;
   display: block;
@@ -80,7 +80,7 @@
 
 .sectionImage {
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   height: auto;
   margin-bottom: 10px;
 }
